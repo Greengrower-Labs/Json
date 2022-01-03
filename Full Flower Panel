@@ -1,81 +1,171 @@
 {
-    "document_name": "WCIA Lab Result Schema",
-    "document_schema_version": "1.0.0.0",
-    "labresult_id": "LR.ID",
-    "sample": {
-        "id": "SAMPLE ID"
-    },
-    "status": "pass",
-    "metric_list": [
-        
+  "document_name": "WCIA Lab Result Schema",
+  "document_schema_version": "1.0.0.0",
+  "labresult_id": "LR.GO.ID",
+  "sample": {
+    "id": "ID"
+  },
+  "status": "pass",
+  "metric_list": [
+    {
+      "test_id": "Microbs",
+      "test_type": "Microbes",
+      "metrics": [
         {
-            "test_id": "potency",
-            "test_type": "Cannabinoids",
-            "metrics": [
-                {
-                    "id": "018NY6XC00LM49CV7QP9KM9QH9",
-                    "name": "d9-THC",
-                    "analyte_type": "Cannabinoids",
-                    "qom": "0.56",
-                    "uom": "pct",
-                    "status": "pass"
-                },
-                {
-                    "id": "018NY6XC00LMB0JPRM2SF8F9F2",
-                    "name": "THCA",
-                    "analyte_type": "Cannabinoids",
-                    "qom": "16.69",
-                    "uom": "pct",
-                    "status": "pass"
-                },
-                {
-                    "id": "018NY6XC00PXG4PH0TXS014VVW",
-                    "name": "total-thc",
-                    "analyte_type": "Cannabinoids",
-                    "qom": "15.20",
-                    "uom": "pct",
-                    "status": "pass"
-                },
-                {
-                    "id": "018NY6XC00LMK7KHD3HPW0Y90N",
-                    "name": "CBD",
-                    "analyte_type": "Cannabinoids",
-                    "qom": "0.03",
-                    "uom": "pct",
-                    "status": "pass"
-                },
-                {
-                    "id": "018NY6XC00LMENDHEH2Y32X903",
-                    "name": "CBDA",
-                    "analyte_type": "Cannabinoids",
-                    "qom": "0.02",
-                    "uom": "pct",
-                    "status": "pass"
-                },
-                {
-                    "id": "018NY6XC00DEEZ41QBXR2E3T97",
-                    "name": "total-cbd",
-                    "analyte_type": "Cannabinoids",
-                    "qom": "0.05",
-                    "uom": "pct",
-                    "status": "pass"
-                },
-                {
-                    "id": "018NY6XC00SAE8Q4JSMF40YSZ3",
-                    "name": "Total Cannabinoids",
-                    "analyte_type": "Cannabinoids",
-                    "qom": "18.30",
-                    "uom": "pct",
-                    "status": "pass"
-                }
-            ]
+          "id": "018NY6XC00LM638QCGB50ZKYKJ",
+          "name": "bile-tolerant-bacteria",
+          "analyte_type": "Microbes",
+          "qom": "0",
+          "uom": "cfu",
+          "status": "pass"
+        },
+        {
+          "id": "018NY6XC00LM7S8H2RT4K4GYME",
+          "name": "e-coli",
+          "analyte_type": "Microbes",
+          "qom": "0.0",
+          "uom": "cfu",
+          "status": "pass"
+        },
+        {
+          "id": "018NY6XC00LMS96WE6KHKNP52T",
+          "name": "salmonella",
+          "analyte_type": "Microbes",
+          "qom": "0.0",
+          "uom": "cfu",
+          "status": "pass"
         }
-        
-            ]
+      ]
+    },
+    {
+      "test_id": "potency",
+      "test_type": "Cannabinoids",
+      "metrics": [
+        {
+          "id": "018NY6XC00LM49CV7QP9KM9QH9",
+          "name": "d9-THC",
+          "analyte_type": "Cannabinoids",
+          "qom": "0.48",
+          "uom": "pct",
+          "status": "pass"
+        },
+        {
+          "id": "018NY6XC00LMB0JPRM2SF8F9F2",
+          "name": "THCA",
+          "analyte_type": "Cannabinoids",
+          "qom": "30.12",
+          "uom": "pct",
+          "status": "pass"
+        },
+        {
+          "id": "018NY6XC00PXG4PH0TXS014VVW",
+          "name": "total-thc",
+          "analyte_type": "Cannabinoids",
+          "qom": "26.90",
+          "uom": "pct",
+          "status": "pass"
+        },
+        {
+          "id": "018NY6XC00LMK7KHD3HPW0Y90N",
+          "name": "CBD",
+          "analyte_type": "Cannabinoids",
+          "qom": "0.08",
+          "uom": "pct",
+          "status": "pass"
+        },
+        {
+          "id": "018NY6XC00LMENDHEH2Y32X903",
+          "name": "CBDA",
+          "analyte_type": "Cannabinoids",
+          "qom": "0.06",
+          "uom": "pct",
+          "status": "pass"
+        },
+        {
+          "id": "018NY6XC00DEEZ41QBXR2E3T97",
+          "name": "total-cbd",
+          "analyte_type": "Cannabinoids",
+          "qom": "0.13",
+          "uom": "pct",
+          "status": "pass"
+        },
+        {
+          "id": "018NY6XC00SAE8Q4JSMF40YSZ3",
+          "name": "Total Cannabinoids",
+          "analyte_type": "Cannabinoids",
+          "qom": "30.74",
+          "uom": "pct",
+          "status": "pass"
         }
-    ],
-    "meta": {
-        "created_at": "GGL_mini",
-        "updated_at": ""
+      ]
+    },
+    {
+      "test_id": "moisture",
+      "test_type": "Loss on Drying",
+      "metrics": [
+        {
+          "id": "018NY6XC00LM0PXPG4592M8J14",
+          "name": "moisture",
+          "analyte_type": "Loss on Drying",
+          "qom": "8.8",
+          "uom": "pct",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "test_id": "foreign-matter",
+      "test_type": "Foreign Matter",
+      "metrics": [
+        {
+          "id": "018NY6XC00LMQAZZSDXPYH62SS",
+          "name": "stems",
+          "analyte_type": "Foreign Matter",
+          "qom": "0.0",
+          "uom": "pct",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "test_id": "myco",
+      "test_type": "Mycotoxin",
+      "metrics": [
+        {
+          "id": "018NY6XC00LMR9PB7SNBP97DAS",
+          "name": "aflatoxin",
+          "analyte_type": "Mycotoxin",
+          "qom": "0",
+          "uom": "ppb",
+          "status": "pass"
+        },
+        {
+          "id": "018NY6XC00LMK15566W1G0ZH5X",
+          "name": "ochratoxin_a",
+          "analyte_type": "Mycotoxin",
+          "qom": "0",
+          "uom": "ppb",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "test_id": "water-activity-rate",
+      "test_type": "Water Activity",
+      "metrics": [
+        {
+          "id": "018NY6XC00LMHF4266DN94JPPX",
+          "name": "water-activity-rate",
+          "analyte_type": "Water Activity",
+          "qom": "0.24",
+          "uom": "aw",
+          "status": "pass"
+        }
+      ]
     }
+  ],
+  "meta": {
+    "created_at": "GGL_GGL",
+    "updated_at": ""
+  }
 }

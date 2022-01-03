@@ -1,0 +1,77 @@
+{
+  "document_name": "WCIA Lab Result Schema",
+  "document_schema_version": "1.0.0.0",
+  "labresult_id": "LR.ID",
+  "sample": {
+    "id": "SAMPLE ID"
+  },
+  "status": "pass",
+  "metric_list": [
+    {
+      "test_id": "potency",
+      "test_type": "Cannabinoids",
+      "metrics": [
+        {
+          "id": "018NY6XC00LM49CV7QP9KM9QH9",
+          "name": "d9-THC",
+          "analyte_type": "Cannabinoids",
+          "qom": "4.01",
+          "uom": "pct",
+          "status": "pass"
+        },
+        {
+          "id": "018NY6XC00LMB0JPRM2SF8F9F2",
+          "name": "THCA",
+          "analyte_type": "Cannabinoids",
+          "qom": "25.18",
+          "uom": "pct",
+          "status": "pass"
+        },
+        {
+          "id": "018NY6XC00PXG4PH0TXS014VVW",
+          "name": "total-thc",
+          "analyte_type": "Cannabinoids",
+          "qom": "26.09",
+          "uom": "pct",
+          "status": "pass"
+        },
+        {
+          "id": "018NY6XC00LMK7KHD3HPW0Y90N",
+          "name": "CBD",
+          "analyte_type": "Cannabinoids",
+          "qom": ".23",
+          "uom": "pct",
+          "status": "pass"
+        },
+        {
+          "id": "018NY6XC00LMENDHEH2Y32X903",
+          "name": "CBDA",
+          "analyte_type": "Cannabinoids",
+          "qom": ".23",
+          "uom": "pct",
+          "status": "pass"
+        },
+        {
+          "id": "018NY6XC00DEEZ41QBXR2E3T97",
+          "name": "total-cbd",
+          "analyte_type": "Cannabinoids",
+          "qom": ".27",
+          "uom": "pct",
+          "status": "pass"
+        },
+        {
+          "id": "018NY6XC00SAE8Q4JSMF40YSZ3",
+          "name": "Total Cannabinoids",
+          "analyte_type": "Cannabinoids",
+          "qom": "29.47",
+          "uom": "pct",
+          "status": "pass"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "created_at": "GGL_mini",
+    "updated_at": ""
+  }
+}
